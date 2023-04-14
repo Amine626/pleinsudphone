@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js"
+      integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js"
+      integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/articles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css">
+
+    <title>Plein Sud Phone</title>
+  </head>
+  <body>
+    <div class="header" id="accueil">
+      <div class="header__texture">
+        <div class="container">
+          <div class="header__navbar">
+            <div class="header__navbar--logo">
+              <h1 class="header__navbar--logo-title">Plein Sud Phone</h1>
+            </div>
+            <div class="header__navbar--menu">
+              <a href="#accueil" class="header__navbar--menu-link"
+                ><i class="fas fa-home"></i> Acceuil</a
+              >
+              <a href="#articles" class="header__navbar--menu-link"
+                ><i class="fas fa-newspaper"></i> Services</a
+              >
+              <a href="#contact" class="header__navbar--menu-link"
+                ><i class="fas fa-phone"></i> Contact</a
+              >
+            </div>
+            <div class="header__navbar-toggle">
+              <span class="header__navbar-toggle-icons"></span>
+            </div>
+          </div>
+          <div class="header__slogan">
+            <h1 class="h__slogan--title">Bienvenue</h1>
+            <a href="tel:02 37 46 27 94" class="h__slogan--btn"
+              >Contactez Nous</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="articles">
+      <div class="container">
+        <div class="articles__title" id="articles">Services</div>
+        <div class="articles__items">
+          <div
+            class="article"
+            style="
+              background: url('./image/internet.jpg');
+              background-size: cover;
+            "
+          >
+            <div class="article__filter"></div>
+            <div class="article__name">Accès à Internet</div>
+          </div>
+
+          <div
+            class="article"
+            style="
+              background: url('./image/photocopie.jpg');
+              background-size: cover;
+            "
+          >
+            <div class="article__filter"></div>
+            <div class="article__name">
+              Impression, numérisation et photocopie
+            </div>
+          </div>
+
+          <div
+            class="article"
+            style="
+              background: url('./image/réparation.jpg');
+              background-size: cover;
+            "
+          >
+            <div class="article__filter"></div>
+            <div class="article__name">Réparations de téléphones</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="contact-wrap">
+          <div class="contact-in">
+            <div class="articles__title">Contact</div>
+            <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+            <a href="tel:02 37 46 27 94">02 37 46 27 94</a>
+            <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+            <a href="mailto:pleinsudphone@hotmail.com">pleinsudphone@hotmail.com</a>
+            <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+            <p>30 Rue du Pressoir, 28500 Vernouillet</p>
+            
+          </div>
+           
+          <div class="contact-in">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.308488035449!2d1.363765750903764!3d48.71869683679921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e1555a6441fe1f%3A0xe0cee4fb6fe41c76!2sPlein%20sud%20phone!5e0!3m2!1sfr!2sfr!4v1681469706366!5m2!1sfr!2sfr"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer"><h5>© By El Ghamri Amine</h5></div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
