@@ -1,3 +1,4 @@
+/******ARTICLES***********/
 .articles {
   text-align: center;
   padding-top: 30px;
@@ -17,6 +18,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding-top: 40px;
+  padding-bottom: 40px;
   flex-wrap: wrap;
 }
 
@@ -47,6 +49,7 @@
   padding-top: 25%;
 }
 
+/******MEDIA QUERIES ARTICLES EN VERSION MOBILE A 600PX***********/
 @media only screen and (max-width: 1100px) {
   .articles__items {
     justify-content: center;

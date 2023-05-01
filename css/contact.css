@@ -1,5 +1,7 @@
+/******CONTACT***********/
 .contact {
-  padding-top: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .contact-wrap {
   width: 80%;
@@ -7,6 +9,8 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  box-shadow: 0px 0px 5px 0px gray;
+  border-radius: 5px;
 }
 
 .contact-in {
@@ -15,7 +19,7 @@
 
 .contact-in:nth-child(1) {
   flex: 40%;
-  background: url("../image/information.jpg") no-repeat;
+  background: url("../image/information.webp") no-repeat bottom;
   background-size: cover;
   color: black;
   text-align: center;
@@ -28,25 +32,16 @@
 a {
   font-size: 20px;
   color: black;
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.contact-in h1 {
-  font-size: 25px;
-  color: black;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.contact-in h2 {
+.contact-in h3 {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 15px;
 }
 
-.contact-in h2 i {
+.contact-in h3 i {
   font-size: 20px;
   width: 40px;
   height: 40px;
@@ -151,30 +146,13 @@ a {
   height: 100%;
 }
 
-@media only screen and (max-width: 480px) {
+/******MEDIA QUERIES CONTACT EN VERSION MOBILE***********/
+@media only screen and (max-width: 600px) {
   .contact-in:nth-child(1) {
     flex: 50%;
   }
 
   .contact-in:nth-child(2) {
-    flex: 50%;
-  }
-
-  .contact-in:nth-child(3) {
-    flex: 100%;
-  }
-}
-
-@media only screen and (max-width: 360px) {
-  .contact-in:nth-child(1) {
-    flex: 50%;
-  }
-
-  .contact-in:nth-child(2) {
-    flex: 50%;
-  }
-
-  .contact-in:nth-child(3) {
     flex: 100%;
   }
 }
